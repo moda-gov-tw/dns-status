@@ -6,9 +6,17 @@ const fs = require("fs");
   for (let i in data) {
     const domain = data[i].domain;
     console.log(domain);
-    const ns = await dig([domain, "NS"]);
+    let ns = null;
+    for (let a = 0; a < 3; a++) {
+      try {
+        ns = await dig([domain, "NS"]);
+        if (Array.isArray(ns.answer)) break;
+      } catch (e) {}
+    }
+
+    const ns_list = Array.isArray(ns.answer) ? ns.answer : [];
     const ns_data = [];
-    for (let a of ns.answer) {
+    for (let a of ns_list) {
       let limit = 3;
       let total_time = 0;
       let success = 0;
@@ -18,8 +26,12 @@ const fs = require("fs");
       while (success < limit && error < limit) {
         try {
           const t = await dig(["@" + a.value, domain, "A"]);
-          total_time += t.time;
-          success += 1;
+          if (t.time > 0) {
+            total_time += t.time;
+            success += 1;
+          } else {
+            error += 1;
+          }
         } catch (e) {
           error += 1;
         }
@@ -30,7 +42,7 @@ const fs = require("fs");
         time: Math.round(total_time / limit),
       });
     }
-    data[i].ns = ns_data.sort();
+    data[i].ns = ns_data;
   }
 
   const result = { updated_at: new Date(), data: data };

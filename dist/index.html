@@ -19,9 +19,10 @@
     <div class="container px-5 py-5">
         <h1 class="pb-2 border-bottom">gov.tw DNS Status</h1>
         <p>Updated at <span id="time"></span></p>
-        <table id="table">
+        <table id="table" data-search="true">
             <thead>
                 <tr>
+                    <th data-field="level" data-sortable="true">Level</th>
                     <th data-field="name" data-sortable="true">Name</th>
                     <th data-field="domain" data-sortable="true">Domain</th>
                     <th data-field="ns" data-sortable="true" data-formatter="ns">NS</th>
@@ -39,10 +40,12 @@
             for (let i of value) {
                 let str = "";
                 if (i.status) {
-                    if (i.time < 100) {
-                        str += '<i class="bi bi-check-circle-fill text-success me-2"></i>'
+                    if (i.time > 300) {
+                        str += '<i class="bi bi-exclamation-circle-fill text-danger me-2"></i>';
+                    } else if (i.time > 150) {
+                        str += '<i class="bi bi-exclamation-circle-fill text-warning me-2"></i>';
                     } else {
-                        str += '<i class="bi bi-exclamation-circle-fill text-warning me-2"></i>'
+                        str += '<i class="bi bi-check-circle-fill text-success me-2"></i>';
                     }
                 } else {
                     str += '<i class="bi bi-x-circle-fill text-danger me-2"></i>';

@@ -1,42 +1,277 @@
 [
   {
+    "level": 0,
+    "name": "tw",
+    "domain": "tw"
+  },
+  {
+    "level": 0,
     "name": "gov.tw",
     "domain": "gov.tw"
   },
   {
-    "name": "數位發展部",
-    "domain": "moda.gov.tw"
+    "level": 0,
+    "name": "nat.gov.tw",
+    "domain": "nat.gov.tw"
   },
   {
-    "name": "國家資通安全研究院",
-    "domain": "nics.nat.gov.tw"
-  },
-  {
-    "name": "國家通訊傳播委員會",
-    "domain": "ncc.gov.tw"
-  },
-  {
+    "level": 1,
     "name": "總統府",
     "domain": "president.gov.tw"
   },
   {
-    "name": "中央氣象局",
+    "level": 1,
+    "name": "行政院",
+    "domain": "ey.gov.tw"
+  },
+  {
+    "level": 1,
+    "name": "司法院",
+    "domain": "judicial.gov.tw"
+  },
+  {
+    "level": 1,
+    "name": "立法院",
+    "domain": "ly.gov.tw"
+  },
+  {
+    "level": 1,
+    "name": "考試院",
+    "domain": "exam.gov.tw"
+  },
+  {
+    "level": 1,
+    "name": "監察院",
+    "domain": "cy.gov.tw"
+  },
+  {
+    "level": 2,
+    "name": "數位發展部",
+    "domain": "moda.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "數位發展部 資通安全署",
+    "domain": "acs.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "數位發展部 數位產業屬",
+    "domain": "adi.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "數位發展部 國家資通安全研究院",
+    "domain": "nics.nat.gov.tw"
+  },
+  {
+    "level": 2,
+    "name": "交通部",
+    "domain": "motc.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "交通部 觀光局",
+    "domain": "taiwan.net.tw"
+  },
+  {
+    "level": 3,
+    "name": "交通部 航港局",
+    "domain": "motcmpb.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "交通部 鐵道局",
+    "domain": "rb.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "交通部 民用航空局",
+    "domain": "caa.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "交通部 高速公路局",
+    "domain": "freeway.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "交通部 中央氣象局",
     "domain": "cwb.gov.tw"
   },
   {
-    "name": "內政部營建署",
-    "domain": "cpami.gov.tw"
+    "level": 3,
+    "name": "交通部 公路總局",
+    "domain": "thb.gov.tw"
   },
   {
-    "name": "衛生福利部食品藥物管理署",
-    "domain": "fda.gov.tw"
+    "level": 3,
+    "name": "交通部 運輸研究所",
+    "domain": "iot.gov.tw"
   },
   {
+    "level": 3,
+    "name": "交通部 臺灣鐵路管理局",
+    "domain": "railway.gov.tw"
+  },
+  {
+    "level": 2,
     "name": "內政部",
     "domain": "moi.gov.tw"
   },
   {
-    "name": "內政部警政署",
+    "level": 3,
+    "name": "內政部 警政署",
     "domain": "npa.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "內政部 營建署",
+    "domain": "cpami.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "內政部 消防署",
+    "domain": "nfa.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "內政部 役政署",
+    "domain": "nca.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "內政部 移民署",
+    "domain": "immigration.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "內政部 建築研究所",
+    "domain": "abri.gov.tw"
+  },
+  {
+    "level": 2,
+    "name": "財政部",
+    "domain": "mof.gov.tw"
+  },
+  {
+    "level": 2,
+    "name": "衛生福利部",
+    "domain": "mohw.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "衛生福利部 疾病管制署",
+    "domain": "cdc.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "衛生福利部 中央健康保險署",
+    "domain": "nhi.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "衛生福利部 食品藥物管理署",
+    "domain": "fda.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "衛生福利部 國民健康署",
+    "domain": "hpa.gov.tw"
+  },
+  {
+    "level": 3,
+    "name": "衛生福利部 社會及家庭署",
+    "domain": "sfaa.gov.tw"
+  },
+  {
+    "level": 2,
+    "name": "外交部",
+    "domain": "mofa.gov.tw"
+  },
+  {
+    "level": 2,
+    "name": "經濟部",
+    "domain": "moea.gov.tw"
+  },
+  {
+    "level": 2,
+    "name": "國防部",
+    "domain": "mnd.gov.tw"
+  },
+  {
+    "level": 2,
+    "name": "法務部",
+    "domain": "moj.gov.tw"
+  },
+  {
+    "level": 2,
+    "name": "勞動部",
+    "domain": "mol.gov.tw"
+  },
+  {
+    "level": 2,
+    "name": "文化部",
+    "domain": "moc.gov.tw"
+  },
+  {
+    "level": 2,
+    "name": "教育部",
+    "domain": "edu.tw"
+  },
+  {
+    "level": 2,
+    "name": "原住民族委員會",
+    "domain": "cip.gov.tw"
+  },
+  {
+    "level": 2,
+    "name": "國家發展委員會",
+    "domain": "ndc.gov.tw"
+  },
+  {
+    "level": 2,
+    "name": "國家通訊傳播委員會",
+    "domain": "ncc.gov.tw"
+  },
+  {
+    "level": 2,
+    "name": "國家安全局",
+    "domain": "nsb.gov.tw"
+  },
+  {
+    "level": 5,
+    "name": "我的E政府",
+    "domain": "www.gov.tw"
+  },
+  {
+    "level": 5,
+    "name": "我的E政府 會員中心",
+    "domain": "cp.gov.tw"
+  },
+  {
+    "level": 5,
+    "name": "電子化政府服務平臺",
+    "domain": "gsp.gov.tw"
+  },
+  {
+    "level": 5,
+    "name": "電子化政府基礎建設",
+    "domain": "service.gov.tw"
+  },
+  {
+    "level": 5,
+    "name": "政府資料開放平臺",
+    "domain": "data.gov.tw"
+  },
+  {
+    "level": 5,
+    "name": "政府資料標準平臺",
+    "domain": "schema.gov.tw"
+  },
+  {
+    "level": 5,
+    "name": "電子申報繳稅服務網",
+    "domain": "tax.nat.gov.tw"
   }
 ]

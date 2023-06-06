@@ -1,223 +1,1113 @@
 {
-  "updated_at": "2023-06-06T07:57:12.366Z",
+  "updated_at": "2023-06-06T16:31:05.653Z",
   "data": [
     {
-      "name": "gov.tw",
-      "domain": "gov.tw",
+      "level": 0,
+      "name": "tw",
+      "domain": "tw",
       "ns": [
         {
-          "domain": "a.twnic.net.tw.",
+          "domain": "ns.twnic.net.",
           "status": true,
-          "time": 32
+          "time": 38
         },
         {
-          "domain": "b.twnic.net.tw.",
+          "domain": "f.dns.tw.",
           "status": true,
-          "time": 60
+          "time": 39
         },
         {
-          "domain": "c.twnic.net.tw.",
+          "domain": "h.dns.tw.",
           "status": true,
-          "time": 36
+          "time": 41
         },
         {
-          "domain": "d.twnic.net.tw.",
+          "domain": "b.dns.tw.",
           "status": true,
-          "time": 190
+          "time": 45
         },
         {
-          "domain": "e.twnic.net.tw.",
+          "domain": "a.dns.tw.",
           "status": true,
-          "time": 37
+          "time": 38
         },
         {
-          "domain": "f.twnic.net.tw.",
+          "domain": "g.dns.tw.",
           "status": true,
-          "time": 36
+          "time": 26
         },
         {
-          "domain": "g.twnic.net.tw.",
-          "status": true,
-          "time": 37
-        },
-        {
-          "domain": "h.twnic.net.tw.",
+          "domain": "c.dns.tw.",
           "status": true,
           "time": 40
+        },
+        {
+          "domain": "anytld.apnic.net.",
+          "status": true,
+          "time": 181
+        },
+        {
+          "domain": "d.dns.tw.",
+          "status": true,
+          "time": 71
+        },
+        {
+          "domain": "e.dns.tw.",
+          "status": true,
+          "time": 78
         }
       ]
     },
     {
+      "level": 0,
+      "name": "gov.tw",
+      "domain": "gov.tw",
+      "ns": [
+        {
+          "domain": "b.twnic.net.tw.",
+          "status": true,
+          "time": 80
+        },
+        {
+          "domain": "h.twnic.net.tw.",
+          "status": true,
+          "time": 92
+        },
+        {
+          "domain": "e.twnic.net.tw.",
+          "status": true,
+          "time": 62
+        },
+        {
+          "domain": "a.twnic.net.tw.",
+          "status": true,
+          "time": 86
+        },
+        {
+          "domain": "d.twnic.net.tw.",
+          "status": true,
+          "time": 126
+        },
+        {
+          "domain": "c.twnic.net.tw.",
+          "status": true,
+          "time": 64
+        },
+        {
+          "domain": "f.twnic.net.tw.",
+          "status": true,
+          "time": 88
+        },
+        {
+          "domain": "g.twnic.net.tw.",
+          "status": true,
+          "time": 7
+        }
+      ]
+    },
+    {
+      "level": 0,
+      "name": "nat.gov.tw",
+      "domain": "nat.gov.tw",
+      "ns": [
+        {
+          "domain": "admns2.gsn.gov.tw.",
+          "status": true,
+          "time": 36
+        },
+        {
+          "domain": "admns3.gsn.gov.tw.",
+          "status": true,
+          "time": 37
+        },
+        {
+          "domain": "admns4.gsn.gov.tw.",
+          "status": true,
+          "time": 41
+        },
+        {
+          "domain": "admns1.gsn.gov.tw.",
+          "status": true,
+          "time": 41
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "name": "總統府",
+      "domain": "president.gov.tw",
+      "ns": [
+        {
+          "domain": "admns2.gsn.gov.tw.",
+          "status": true,
+          "time": 37
+        },
+        {
+          "domain": "ans2.gsn.gov.tw.",
+          "status": true,
+          "time": 107
+        },
+        {
+          "domain": "admns1.gsn.gov.tw.",
+          "status": true,
+          "time": 45
+        },
+        {
+          "domain": "ans1.gsn.gov.tw.",
+          "status": true,
+          "time": 44
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "name": "行政院",
+      "domain": "ey.gov.tw",
+      "ns": [
+        {
+          "domain": "ey-dns.ey.gov.tw.",
+          "status": true,
+          "time": 36
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "name": "司法院",
+      "domain": "judicial.gov.tw",
+      "ns": [
+        {
+          "domain": "ns1.judicial.gov.tw.",
+          "status": true,
+          "time": 37
+        },
+        {
+          "domain": "ns2.judicial.gov.tw.",
+          "status": true,
+          "time": 35
+        },
+        {
+          "domain": "ns3.judicial.gov.tw.",
+          "status": false,
+          "time": 0
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "name": "立法院",
+      "domain": "ly.gov.tw",
+      "ns": [
+        {
+          "domain": "dns1.ly.gov.tw.",
+          "status": true,
+          "time": 35
+        },
+        {
+          "domain": "dns2.ly.gov.tw.",
+          "status": true,
+          "time": 35
+        },
+        {
+          "domain": "dns3.ly.gov.tw.",
+          "status": true,
+          "time": 35
+        },
+        {
+          "domain": "dns4.ly.gov.tw.",
+          "status": true,
+          "time": 34
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "name": "考試院",
+      "domain": "exam.gov.tw",
+      "ns": [
+        {
+          "domain": "admns1.gsn.gov.tw.",
+          "status": true,
+          "time": 65
+        },
+        {
+          "domain": "admns2.gsn.gov.tw.",
+          "status": true,
+          "time": 126
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "name": "監察院",
+      "domain": "cy.gov.tw",
+      "ns": [
+        {
+          "domain": "ns2.cy.gov.tw.",
+          "status": true,
+          "time": 87
+        },
+        {
+          "domain": "ns1.cy.gov.tw.",
+          "status": true,
+          "time": 85
+        },
+        {
+          "domain": "ns4.cy.gov.tw.",
+          "status": true,
+          "time": 34
+        }
+      ]
+    },
+    {
+      "level": 2,
       "name": "數位發展部",
       "domain": "moda.gov.tw",
       "ns": [
         {
           "domain": "gwen.ns.cloudflare.com.",
           "status": true,
-          "time": 64
+          "time": 33
         },
         {
           "domain": "jim.ns.cloudflare.com.",
           "status": true,
-          "time": 53
+          "time": 43
         }
       ]
     },
     {
-      "name": "國家資通安全研究院",
+      "level": 3,
+      "name": "數位發展部 資通安全署",
+      "domain": "acs.gov.tw",
+      "ns": [
+        {
+          "domain": "gwen.ns.cloudflare.com.",
+          "status": true,
+          "time": 40
+        },
+        {
+          "domain": "jim.ns.cloudflare.com.",
+          "status": true,
+          "time": 48
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "數位發展部 數位產業屬",
+      "domain": "adi.gov.tw",
+      "ns": [
+        {
+          "domain": "gwen.ns.cloudflare.com.",
+          "status": true,
+          "time": 47
+        },
+        {
+          "domain": "jim.ns.cloudflare.com.",
+          "status": true,
+          "time": 47
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "數位發展部 國家資通安全研究院",
       "domain": "nics.nat.gov.tw",
       "ns": [
         {
-          "domain": "dns3.nics.nat.gov.tw.",
+          "domain": "dns.nics.nat.gov.tw.",
           "status": true,
-          "time": 38
+          "time": 101
         },
         {
           "domain": "dns2.nics.nat.gov.tw.",
           "status": true,
-          "time": 42
+          "time": 85
         },
         {
-          "domain": "dns.nics.nat.gov.tw.",
+          "domain": "dns3.nics.nat.gov.tw.",
           "status": true,
-          "time": 47
+          "time": 97
         }
       ]
     },
     {
-      "name": "國家通訊傳播委員會",
-      "domain": "ncc.gov.tw",
+      "level": 2,
+      "name": "交通部",
+      "domain": "motc.gov.tw",
       "ns": [
         {
-          "domain": "nsp1.hinet.net.",
+          "domain": "motc-dns.motc.gov.tw.",
           "status": true,
-          "time": 46
-        },
-        {
-          "domain": "nsp2.hinet.net.",
-          "status": true,
-          "time": 37
+          "time": 84
         }
       ]
     },
     {
-      "name": "總統府",
-      "domain": "president.gov.tw",
+      "level": 3,
+      "name": "交通部 觀光局",
+      "domain": "taiwan.net.tw",
       "ns": [
         {
-          "domain": "ans1.gsn.gov.tw.",
+          "domain": "admns1.hinet.net.",
           "status": true,
-          "time": 47
+          "time": 55
         },
+        {
+          "domain": "admns2.hinet.net.",
+          "status": true,
+          "time": 75
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "交通部 航港局",
+      "domain": "motcmpb.gov.tw",
+      "ns": [
         {
           "domain": "admns1.gsn.gov.tw.",
           "status": true,
-          "time": 42
-        },
-        {
-          "domain": "ans2.gsn.gov.tw.",
-          "status": true,
-          "time": 37
+          "time": 79
         },
         {
           "domain": "admns2.gsn.gov.tw.",
           "status": true,
-          "time": 50
+          "time": 126
         }
       ]
     },
     {
-      "name": "中央氣象局",
+      "level": 3,
+      "name": "交通部 鐵道局",
+      "domain": "rb.gov.tw",
+      "ns": [
+        {
+          "domain": "ns.rb.gov.tw.",
+          "status": true,
+          "time": 72
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "交通部 民用航空局",
+      "domain": "caa.gov.tw",
+      "ns": [
+        {
+          "domain": "anirban.ns.cloudflare.com.",
+          "status": true,
+          "time": 47
+        },
+        {
+          "domain": "sydney.ns.cloudflare.com.",
+          "status": true,
+          "time": 39
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "交通部 高速公路局",
+      "domain": "freeway.gov.tw",
+      "ns": [
+        {
+          "domain": "admns2.gsn.gov.tw.",
+          "status": true,
+          "time": 37
+        },
+        {
+          "domain": "admns1.gsn.gov.tw.",
+          "status": true,
+          "time": 45
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "交通部 中央氣象局",
       "domain": "cwb.gov.tw",
       "ns": [
         {
-          "domain": "dns1.cwb.gov.tw.",
-          "status": true,
-          "time": 91
-        },
-        {
-          "domain": "dns2.cwb.gov.tw.",
-          "status": true,
-          "time": 236
-        },
-        {
           "domain": "dns3.cwb.gov.tw.",
           "status": true,
-          "time": 50
-        }
-      ]
-    },
-    {
-      "name": "內政部營建署",
-      "domain": "cpami.gov.tw",
-      "ns": [
-        {
-          "domain": "nss2.cpami.gov.tw.",
-          "status": true,
-          "time": 45
+          "time": 57
         },
         {
-          "domain": "nss1.cpami.gov.tw.",
-          "status": true,
-          "time": 80
-        }
-      ]
-    },
-    {
-      "name": "衛生福利部食品藥物管理署",
-      "domain": "fda.gov.tw",
-      "ns": [
-        {
-          "domain": "ns.fda.gov.tw.",
+          "domain": "dns1.cwb.gov.tw.",
           "status": true,
           "time": 41
         },
         {
-          "domain": "gateway.fda.gov.tw.",
+          "domain": "dns2.cwb.gov.tw.",
           "status": true,
-          "time": 44
+          "time": 120
         }
       ]
     },
     {
+      "level": 3,
+      "name": "交通部 公路總局",
+      "domain": "thb.gov.tw",
+      "ns": [
+        {
+          "domain": "dns.thb.gov.tw.",
+          "status": true,
+          "time": 95
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "交通部 運輸研究所",
+      "domain": "iot.gov.tw",
+      "ns": [
+        {
+          "domain": "dns.iot.gov.tw.",
+          "status": true,
+          "time": 95
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "交通部 臺灣鐵路管理局",
+      "domain": "railway.gov.tw",
+      "ns": [
+        {
+          "domain": "ns1.railway.gov.tw.",
+          "status": true,
+          "time": 92
+        },
+        {
+          "domain": "ns2.railway.gov.tw.",
+          "status": true,
+          "time": 59
+        }
+      ]
+    },
+    {
+      "level": 2,
       "name": "內政部",
       "domain": "moi.gov.tw",
       "ns": [
         {
           "domain": "ns1.moi.gov.tw.",
           "status": true,
-          "time": 54
-        },
-        {
-          "domain": "ns3.moi.gov.tw.",
-          "status": true,
-          "time": 44
+          "time": 118
         },
         {
           "domain": "ns2.moi.gov.tw.",
           "status": true,
-          "time": 52
+          "time": 61
+        },
+        {
+          "domain": "ns3.moi.gov.tw.",
+          "status": true,
+          "time": 74
         }
       ]
     },
     {
-      "name": "內政部警政署",
+      "level": 3,
+      "name": "內政部 警政署",
       "domain": "npa.gov.tw",
       "ns": [
         {
+          "domain": "NPA-FW2.npa.gov.tw.",
+          "status": true,
+          "time": 35
+        },
+        {
           "domain": "NPA-FW4.npa.gov.tw.",
           "status": true,
-          "time": 32
+          "time": 29
         },
         {
           "domain": "NPA-FW.npa.gov.tw.",
           "status": true,
+          "time": 34
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "內政部 營建署",
+      "domain": "cpami.gov.tw",
+      "ns": [
+        {
+          "domain": "nss2.cpami.gov.tw.",
+          "status": true,
+          "time": 34
+        },
+        {
+          "domain": "nss1.cpami.gov.tw.",
+          "status": true,
+          "time": 30
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "內政部 消防署",
+      "domain": "nfa.gov.tw",
+      "ns": [
+        {
+          "domain": "dns1.nfa.gov.tw.",
+          "status": true,
+          "time": 38
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "內政部 役政署",
+      "domain": "nca.gov.tw",
+      "ns": [
+        {
+          "domain": "dns2.nca.gov.tw.",
+          "status": true,
+          "time": 37
+        },
+        {
+          "domain": "dns.nca.gov.tw.",
+          "status": true,
+          "time": 126
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "內政部 移民署",
+      "domain": "immigration.gov.tw",
+      "ns": [
+        {
+          "domain": "ns6.immigration.gov.tw.",
+          "status": true,
+          "time": 77
+        },
+        {
+          "domain": "ns5.immigration.gov.tw.",
+          "status": true,
+          "time": 73
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "內政部 建築研究所",
+      "domain": "abri.gov.tw",
+      "ns": [
+        {
+          "domain": "dns.abri.gov.tw.",
+          "status": true,
+          "time": 107
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "財政部",
+      "domain": "mof.gov.tw",
+      "ns": [
+        {
+          "domain": "mofdns3.mof.gov.tw.",
+          "status": true,
+          "time": 95
+        },
+        {
+          "domain": "dnstr.mof.gov.tw.",
+          "status": true,
+          "time": 120
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "衛生福利部",
+      "domain": "mohw.gov.tw",
+      "ns": [
+        {
+          "domain": "ns1.mohw.gov.tw.",
+          "status": true,
+          "time": 83
+        },
+        {
+          "domain": "ns2.mohw.gov.tw.",
+          "status": true,
+          "time": 45
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "衛生福利部 疾病管制署",
+      "domain": "cdc.gov.tw",
+      "ns": [
+        {
+          "domain": "a8-67.akam.net.",
+          "status": true,
+          "time": 53
+        },
+        {
+          "domain": "a6-67.akam.net.",
+          "status": true,
+          "time": 35
+        },
+        {
+          "domain": "a4-64.akam.net.",
+          "status": true,
+          "time": 213
+        },
+        {
+          "domain": "a11-67.akam.net.",
+          "status": true,
+          "time": 162
+        },
+        {
+          "domain": "a1-254.akam.net.",
+          "status": true,
+          "time": 37
+        },
+        {
+          "domain": "a7-65.akam.net.",
+          "status": true,
+          "time": 180
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "衛生福利部 中央健康保險署",
+      "domain": "nhi.gov.tw",
+      "ns": [
+        {
+          "domain": "ns02.nhi.gov.tw.",
+          "status": true,
+          "time": 34
+        },
+        {
+          "domain": "ns01.nhi.gov.tw.",
+          "status": true,
+          "time": 34
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "衛生福利部 食品藥物管理署",
+      "domain": "fda.gov.tw",
+      "ns": [
+        {
+          "domain": "ns.fda.gov.tw.",
+          "status": true,
+          "time": 34
+        },
+        {
+          "domain": "gateway.fda.gov.tw.",
+          "status": true,
+          "time": 41
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "衛生福利部 國民健康署",
+      "domain": "hpa.gov.tw",
+      "ns": [
+        {
+          "domain": "tpdns.hpa.gov.tw.",
+          "status": false,
+          "time": 0
+        },
+        {
+          "domain": "ns1.hpa.gov.tw.",
+          "status": true,
+          "time": 41
+        },
+        {
+          "domain": "tpdns2.hpa.gov.tw.",
+          "status": false,
+          "time": 0
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "衛生福利部 社會及家庭署",
+      "domain": "sfaa.gov.tw",
+      "ns": [
+        {
+          "domain": "dns1.sfaa.gov.tw.",
+          "status": true,
+          "time": 58
+        },
+        {
+          "domain": "dns2.sfaa.gov.tw.",
+          "status": true,
+          "time": 121
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "外交部",
+      "domain": "mofa.gov.tw",
+      "ns": [
+        {
+          "domain": "srv.mofa.gov.tw.",
+          "status": true,
+          "time": 68
+        },
+        {
+          "domain": "ns3-34.azure-dns.org.",
+          "status": true,
           "time": 40
         },
         {
-          "domain": "NPA-FW2.npa.gov.tw.",
+          "domain": "ns1-34.azure-dns.com.",
+          "status": true,
+          "time": 37
+        },
+        {
+          "domain": "ns2-34.azure-dns.net.",
+          "status": true,
+          "time": 41
+        },
+        {
+          "domain": "ns4-34.azure-dns.info.",
+          "status": true,
+          "time": 36
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "經濟部",
+      "domain": "moea.gov.tw",
+      "ns": [
+        {
+          "domain": "gdns.moea.gov.tw.",
+          "status": true,
+          "time": 39
+        },
+        {
+          "domain": "pdns.moea.gov.tw.",
+          "status": true,
+          "time": 39
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "國防部",
+      "domain": "mnd.gov.tw",
+      "ns": [
+        {
+          "domain": "dns1.mnd.gov.tw.",
+          "status": true,
+          "time": 39
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "法務部",
+      "domain": "moj.gov.tw",
+      "ns": [
+        {
+          "domain": "nsp2.hinet.net.",
+          "status": true,
+          "time": 44
+        },
+        {
+          "domain": "nsp1.hinet.net.",
+          "status": true,
+          "time": 36
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "勞動部",
+      "domain": "mol.gov.tw",
+      "ns": [
+        {
+          "domain": "dns1.mol.gov.tw.",
+          "status": true,
+          "time": 129
+        },
+        {
+          "domain": "dns2.mol.gov.tw.",
           "status": true,
           "time": 55
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "文化部",
+      "domain": "moc.gov.tw",
+      "ns": [
+        {
+          "domain": "dns.moc.gov.tw.",
+          "status": true,
+          "time": 95
+        },
+        {
+          "domain": "dns3.moc.gov.tw.",
+          "status": true,
+          "time": 140
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "教育部",
+      "domain": "edu.tw",
+      "ns": [
+        {
+          "domain": "edudns-a3.edu.tw.",
+          "status": true,
+          "time": 68
+        },
+        {
+          "domain": "d.twnic.net.tw.",
+          "status": true,
+          "time": 77
+        },
+        {
+          "domain": "a.twnic.net.tw.",
+          "status": true,
+          "time": 124
+        },
+        {
+          "domain": "edudns-a1.edu.tw.",
+          "status": true,
+          "time": 42
+        },
+        {
+          "domain": "moemoon.edu.tw.",
+          "status": true,
+          "time": 36
+        },
+        {
+          "domain": "c.twnic.net.tw.",
+          "status": true,
+          "time": 47
+        },
+        {
+          "domain": "b.twnic.net.tw.",
+          "status": true,
+          "time": 47
+        },
+        {
+          "domain": "moestar.edu.tw.",
+          "status": true,
+          "time": 36
+        },
+        {
+          "domain": "edudns-a2.edu.tw.",
+          "status": true,
+          "time": 51
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "原住民族委員會",
+      "domain": "cip.gov.tw",
+      "ns": [
+        {
+          "domain": "admns1.gsn.gov.tw.",
+          "status": true,
+          "time": 37
+        },
+        {
+          "domain": "admns2.gsn.gov.tw.",
+          "status": true,
+          "time": 41
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "國家發展委員會",
+      "domain": "ndc.gov.tw",
+      "ns": [
+        {
+          "domain": "ncz-dns-02.ndc.gov.tw.",
+          "status": true,
+          "time": 106
+        },
+        {
+          "domain": "ncz-dns-01.ndc.gov.tw.",
+          "status": true,
+          "time": 59
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "國家通訊傳播委員會",
+      "domain": "ncc.gov.tw",
+      "ns": [
+        {
+          "domain": "nsp1.hinet.net.",
+          "status": true,
+          "time": 60
+        },
+        {
+          "domain": "nsp2.hinet.net.",
+          "status": true,
+          "time": 81
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "國家安全局",
+      "domain": "nsb.gov.tw",
+      "ns": [
+        {
+          "domain": "ns-143.awsdns-17.com.",
+          "status": true,
+          "time": 59
+        },
+        {
+          "domain": "ns-1672.awsdns-17.co.uk.",
+          "status": true,
+          "time": 195
+        },
+        {
+          "domain": "ns-1081.awsdns-07.org.",
+          "status": true,
+          "time": 183
+        },
+        {
+          "domain": "ns-1003.awsdns-61.net.",
+          "status": true,
+          "time": 49
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "我的E政府",
+      "domain": "www.gov.tw",
+      "ns": [
+        {
+          "domain": "gwen.ns.cloudflare.com.",
+          "status": true,
+          "time": 33
+        },
+        {
+          "domain": "jim.ns.cloudflare.com.",
+          "status": true,
+          "time": 28
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "我的E政府 會員中心",
+      "domain": "cp.gov.tw",
+      "ns": [
+        {
+          "domain": "admns1.gsn.gov.tw.",
+          "status": true,
+          "time": 47
+        },
+        {
+          "domain": "admns2.gsn.gov.tw.",
+          "status": true,
+          "time": 48
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "電子化政府服務平臺",
+      "domain": "gsp.gov.tw",
+      "ns": [
+        {
+          "domain": "admns1.gsn.gov.tw.",
+          "status": true,
+          "time": 39
+        },
+        {
+          "domain": "admns2.gsn.gov.tw.",
+          "status": true,
+          "time": 35
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "電子化政府基礎建設",
+      "domain": "service.gov.tw",
+      "ns": [
+        {
+          "domain": "admns1.gsn.gov.tw.",
+          "status": true,
+          "time": 40
+        },
+        {
+          "domain": "admns2.gsn.gov.tw.",
+          "status": true,
+          "time": 48
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "政府資料開放平臺",
+      "domain": "data.gov.tw",
+      "ns": [
+        {
+          "domain": "morgan.ns.cloudflare.com.",
+          "status": true,
+          "time": 35
+        },
+        {
+          "domain": "deborah.ns.cloudflare.com.",
+          "status": true,
+          "time": 42
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "政府資料標準平臺",
+      "domain": "schema.gov.tw",
+      "ns": [
+        {
+          "domain": "morgan.ns.cloudflare.com.",
+          "status": true,
+          "time": 40
+        },
+        {
+          "domain": "deborah.ns.cloudflare.com.",
+          "status": true,
+          "time": 37
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "電子申報繳稅服務網",
+      "domain": "tax.nat.gov.tw",
+      "ns": [
+        {
+          "domain": "dns1.tax.nat.gov.tw.",
+          "status": true,
+          "time": 37
+        },
+        {
+          "domain": "dns2.tax.nat.gov.tw.",
+          "status": true,
+          "time": 41
         }
       ]
     }

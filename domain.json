@@ -1,0 +1,42 @@
+[
+  {
+    "name": "gov.tw",
+    "domain": "gov.tw"
+  },
+  {
+    "name": "數位發展部",
+    "domain": "moda.gov.tw"
+  },
+  {
+    "name": "國家資通安全研究院",
+    "domain": "nics.nat.gov.tw"
+  },
+  {
+    "name": "國家通訊傳播委員會",
+    "domain": "ncc.gov.tw"
+  },
+  {
+    "name": "總統府",
+    "domain": "president.gov.tw"
+  },
+  {
+    "name": "中央氣象局",
+    "domain": "cwb.gov.tw"
+  },
+  {
+    "name": "內政部營建署",
+    "domain": "cpami.gov.tw"
+  },
+  {
+    "name": "衛生福利部食品藥物管理署",
+    "domain": "fda.gov.tw"
+  },
+  {
+    "name": "內政部",
+    "domain": "moi.gov.tw"
+  },
+  {
+    "name": "內政部警政署",
+    "domain": "npa.gov.tw"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "dns-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-dig-dns": "^0.3.3"
+  }
+}

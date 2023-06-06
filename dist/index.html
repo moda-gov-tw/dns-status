@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>gov.tw DNS Status</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.21.2/bootstrap-table.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+        integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="container px-5 py-5">
+        <h1 class="pb-2 border-bottom">gov.tw DNS Status</h1>
+        <p>Updated at <span id="time"></span></p>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th data-field="name" data-sortable="true">Name</th>
+                    <th data-field="domain" data-sortable="true">Domain</th>
+                    <th data-field="ns" data-sortable="true" data-formatter="ns">NS</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <script>
+        fetch("ns.json").then((res) => res.json()).then((j) => {
+            $("#time").text(j.updated_at);
+            $("#table").bootstrapTable({ data: j.data });
+        });
+        function ns(value, row) {
+            let result = []
+            for (let i of value) {
+                let str = "";
+                if (i.status) {
+                    if (i.time < 100) {
+                        str += '<i class="bi bi-check-circle-fill text-success me-2"></i>'
+                    } else {
+                        str += '<i class="bi bi-exclamation-circle-fill text-warning me-2"></i>'
+                    }
+                } else {
+                    str += '<i class="bi bi-x-circle-fill text-danger me-2"></i>';
+                }
+                str += i.domain + " " + i.time + "ms";
+                result.push(str);
+            }
+            return result.join("<br>");
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.21.2/bootstrap-table.min.js"></script>
+</body>
+
+</html>
